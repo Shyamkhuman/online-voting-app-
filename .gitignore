@@ -1,0 +1,26 @@
+# Gradle wrapper
+.gradle/
+local.properties
+
+# Android build output
+/app/build/
+/build/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (contains project credentials – add your own)
+google-services.json
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+*.ipr
+*.iws
+captures/
+.externalNativeBuild/
+.cxx/
+
+# macOS
+.DS_Store
