@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Online Voting App</string>
+
+    <!-- Activity titles -->
+    <string name="title_login">Sign In</string>
+    <string name="title_register">Create Account</string>
+    <string name="title_candidates">Candidates</string>
+    <string name="title_voting">Cast Your Vote</string>
+    <string name="title_results">Live Results</string>
+
+    <!-- Input hints -->
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+
+    <!-- Buttons -->
+    <string name="btn_login">Sign In</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_cast_vote">Cast Vote</string>
+    <string name="btn_yes">Yes, Vote</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Navigation prompts -->
+    <string name="prompt_register">Don\'t have an account? Register</string>
+    <string name="prompt_login">Already have an account? Sign In</string>
+
+    <!-- Menu items -->
+    <string name="menu_results">Results</string>
+    <string name="menu_logout">Sign Out</string>
+
+    <!-- Voting screen -->
+    <string name="label_voting_for">You are voting for:</string>
+    <string name="dialog_confirm_title">Confirm Vote</string>
+    <string name="dialog_confirm_message">Are you sure you want to vote for %1$s? This cannot be undone.</string>
+    <string name="already_voted">You have already cast your vote (Candidate ID: %1$s). Voting is allowed only once.</string>
+    <string name="vote_success">Your vote has been recorded successfully!</string>
+
+    <!-- Results screen -->
+    <string name="total_votes">Total Votes Cast: %1$d</string>
+    <string name="percentage_format">%1$d%%</string>
+
+    <!-- Empty states -->
+    <string name="no_candidates">No candidates found.\nPlease check back later.</string>
+    <string name="no_results">No results available yet.</string>
+
+    <!-- Validation errors -->
+    <string name="error_name_required">Please enter your name</string>
+    <string name="error_email_required">Please enter your email address</string>
+    <string name="error_password_required">Please enter a password</string>
+    <string name="error_password_length">Password must be at least 6 characters</string>
+    <string name="error_passwords_no_match">Passwords do not match</string>
+    <string name="error_login_failed">Login failed. Please try again.</string>
+    <string name="error_registration_failed">Registration failed. Please try again.</string>
+    <string name="error_saving_user">Failed to save user profile. Please try again.</string>
+    <string name="error_vote_failed">Vote submission failed. Please try again.</string>
+
+    <!-- Success messages -->
+    <string name="registration_success">Registration successful!</string>
+
+    <!-- Accessibility -->
+    <string name="cd_candidate_photo">Candidate profile photo</string>
+</resources>
